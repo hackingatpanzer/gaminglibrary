@@ -1770,7 +1770,7 @@ function DiscordLib:Window(text)
 		GlowFrame.Parent = ServerFrame
 		GlowFrame.BackgroundColor3 = Color3.fromRGB(47, 49, 54)
 		GlowFrame.BackgroundTransparency = 1.000
-		GlowFrame.BorderSizePixel = 0
+		GlowFrame.BorderSizePixel = 100
 		GlowFrame.Position = UDim2.new(-0.0010054264, 0, -0.000900391256, 0)
 		GlowFrame.Size = UDim2.new(0, 609, 0, 40)
 
@@ -1778,7 +1778,7 @@ function DiscordLib:Window(text)
 		Glow.Parent = GlowFrame
 		Glow.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 		Glow.BackgroundTransparency = 1.000
-		Glow.BorderSizePixel = 10
+		Glow.BorderSizePixel = 100
 		Glow.Position = UDim2.new(0, -15, 0, -15)
 		Glow.Size = UDim2.new(1, 30, 1, 30)
 		Glow.ZIndex = 0
